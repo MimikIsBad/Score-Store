@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-name">
+        <h1 class="title-main">Score-Store</h1>
+        <h3 class="title-desc">Basketball Score Tracker</h3>
+    </div>
+
+
+    <div class="container">
+        <div class="score-box">
+                <h1 class="title">Home</h1>
+                <span id="home-score">0</span>
+
+            <div class="point-btn">
+                <button onclick="home1()">+1</button>
+                <button onclick="home2()">+2</button>
+                <button onclick="home3()">+3</button>
+            </div>
+        </div>
+
+        <button onclick="resetMatch()" class="reset-btn">NEW GAME</button>
+
+        <div class="score-box">
+                <h1 class="title">Guest</h1>
+                <span id="guest-score">0</span>
+
+            <div class="point-btn">
+                <button onclick="guest1()">+1</button>
+                <button onclick="guest2()">+2</button>
+                <button onclick="guest3()">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

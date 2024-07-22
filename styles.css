@@ -1,0 +1,110 @@
+@font-face {
+    font-family: my-cool-font;
+    src: url(CursedTimerUlil-Aznm.ttf);
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+
+    font-family: my-cool-font, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: 	#7f7a8c;
+}
+
+.game-name {
+    text-align: center;
+}
+
+.title-main {
+    color: #d4d3d9;
+}
+
+.title-desc {
+    color: black;
+    font-size: 20px;
+}
+
+.container {
+    background-color: #2a223f;
+    width: 400px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border: 7px black solid;
+    border-radius: 10px;
+}
+
+.score-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #d4d3d9;
+    text-align: center;
+}
+
+span {
+    background-color: black;
+    height: 90px;
+    width: 90px;
+
+    color: rgb(222, 67, 67);
+    font-size: 70px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point-btn {
+    width: 90px;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    gap: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reset-btn {
+    width: 70px;
+    height: 70px;
+
+    font-size: 20px;
+
+    display: flex;
+    align-self: center;
+
+    border-color: #d4d3d9;
+    color: #d4d3d9;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    
+    background-color: #2a223f;
+    border: #d4d3d9 2px solid;
+    border-radius: 5px;
+    color: #d4d3d9;
+
+    font-family: my-cool-font, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
